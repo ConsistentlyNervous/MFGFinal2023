@@ -15,4 +15,8 @@ public:
     this->x *= scalar;
     this->y *= scalar;
   }
+
+  float DotProd(Vector2 vect1, Vector2 vect2) {
+    return (vect1.x * vect2.x) + (vect1.y * vect2.y); 
+  }
 };
