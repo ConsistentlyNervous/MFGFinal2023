@@ -10,4 +10,9 @@ public:
     x = x_t;
     y = y_t;
   }
+
+  Vector2 Scale(float scalar) {
+    this->x *= scalar;
+    this->y *= scalar;
+  }
 };
