@@ -14,7 +14,7 @@ public:
 
   /// @brief scales this vector2 by a provided scalar
   /// @param scalar the value to scale by
-  void Scale(float scalar) {
+  void Scale(double scalar) {
     x *= scalar;
     y *= scalar;
   }
@@ -23,7 +23,7 @@ public:
   /// @param vect1 the first vector2
   /// @param vect2 the second vector2
   /// @return a float of the calculated dot product
-  float DotProd(Vector2 vect1, Vector2 vect2) {
-    return (vect1.x * vect2.x) + (vect1.y * vect2.y); 
+  double DotProd(Vector2 vect1, Vector2 vect2) {
+    return (vect1.x * vect2.x) + (vect1.y * vect2.y);
   }
 };
